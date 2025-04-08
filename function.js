@@ -85,8 +85,8 @@ console.log(longestWord("She is my bestie"));
 
 
 function isPalindrome(str) {
-let string =str.split('').reverse().join('');
-return string == reverse
+let reversed =str.split('').reverse().join('');
+return str == reversed
 }
 
 console.log(isPalindrome("racecar"))
